@@ -1,0 +1,279 @@
+/* Responsive */
+@media screen and (max-width: 1152px) and (min-width: 999px) {
+    .myPicture img {
+        width: 83% !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 70px !important;
+    }
+
+    .welcomeMsg button {
+        width: 35% !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .myPicture img {
+        width: 95% !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 70px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 22px !important;
+    }
+
+    .welcomeMsg button {
+        width: 35% !important;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .welcomeMsg h1 {
+        font-size: 65px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 857px) {
+    .landing {
+        height: 74vh !important;
+    }
+
+    .myPicture img {
+        width: 100% !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 65px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (max-width: 781px) and (min-width: 699px) {
+    .landing {
+        height: 70vh !important;
+    }
+
+    .myPicture img {
+        width: 100% !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 55px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 15px !important;
+    }
+
+    .welcomeMsg button {
+        width: 45% !important;
+    }
+}
+
+@media screen and (max-width: 699px) and (min-width: 576px) {
+    .landing {
+        height: 60vh !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 42px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 15px !important;
+    }
+
+    .welcomeMsg button {
+        width: 55% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .landing {
+        height: 125vh !important;
+    }
+
+    .welcomeMsg {
+        text-align: center !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 50px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 20px !important;
+    }
+
+    .welcomeMsg button {
+        width: 40% !important;
+    }
+
+    .myPicture {
+        top: 10% !important;
+    }
+
+    .myPicture img {
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .landing {
+        height: 115vh !important;
+    }
+
+    .welcomeMsg {
+        text-align: center !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 45px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 20px !important;
+    }
+
+    .welcomeMsg button {
+        width: 40% !important;
+    }
+
+    .myPicture {
+        top: 10% !important;
+    }
+
+    .myPicture img {
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .landing {
+        height: 105vh !important;
+    }
+
+    .welcomeMsg {
+        text-align: center !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 37px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 19px !important;
+    }
+
+    .welcomeMsg button {
+        width: 40% !important;
+    }
+
+    .myPicture {
+        top: 15% !important;
+    }
+
+    .myPicture img {
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .landing {
+        height: 105vh !important;
+    }
+
+    .welcomeMsg h1 {
+        font-size: 45px !important;
+    }
+
+    .welcomeMsg p {
+        font-size: 18px !important;
+    }
+
+    .welcomeMsg button {
+        width: 40% !important;
+    }
+
+    .myPicture {
+        top: 15% !important;
+    }
+
+    .myPicture img {
+        width: 75% !important;
+    }
+}
+
+
+
+/* ////////////////////////////////////////////////////////// */
+
+.landing {
+    background-color: #ff9aeb21;
+    height: 85vh;
+    margin-bottom: 8%;
+}
+
+.landing .content {
+    width: 75%;
+    margin: auto;
+}
+
+.welcomeMsg {
+    position: relative;
+    top: 18%;
+    transition: 1s;
+}
+
+.welcomeMsg:hover {
+    transform: translatex(-50px);
+
+}
+
+.welcomeMsg h1 {
+    font-size: 85px;
+    color: #4f4f4f;
+
+}
+
+.welcomeMsg p {
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.welcomeMsg button {
+    border: navajowhite;
+    background-color: indianred;
+    width: 25%;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.welcomeMsg button:hover {
+    /* animation-name: animation;
+    animation-duration: 5s; */
+    transition: 2s;
+    background-color: blanchedalmond;
+    color: var(--main-color);
+}
+
+.myPicture {
+    position: relative;
+    left: 15%;
+}

@@ -1,0 +1,30 @@
+.contact {
+    background-color: #ff9aeb21;
+    padding: 20px;
+    margin-bottom: 20%;
+}
+
+.contact .contactHeader {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #4f4f4f;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    width: 40%;
+    margin: auto;
+
+}
+
+.contact form .submitbtn {
+    background-color: var(--main-color);
+    width: 100%;
+    border: none;
+}
+
+.contact form .submitbtn:hover {
+    background-color: var(--main-color);
+}

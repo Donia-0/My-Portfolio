@@ -1,0 +1,19 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: brown;
+    margin-bottom: 0;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .icon {
+    color: white;
+    width: 50px;
+    margin: 10px;
+}

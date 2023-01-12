@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Alisha Paul",
+      "email": "alisha@gmail.com",
+      "phone": "010025897",
+      "password": "123456",
+      "confirmpassword": "123456"
+    },
+    {
+      "id": 2,
+      "username": "Alisha Paul",
+      "email": "alisha@gmail.com",
+      "phone": "010025897",
+      "password": "123456",
+      "confirmpassword": "123456"
+    },
+    {
+      "id": 3,
+      "username": "Alisha Paul",
+      "email": "alisha@gmail.com",
+      "phone": "010025897",
+      "password": "123456",
+      "confirmpassword": "123456"
+    },
+    {
+      "userName": "donia",
+      "email": "doniawalid288@gmail.com",
+      "phone": "01022695119",
+      "message": "knkjbbjk",
+      "id": 4
+    }
+  ]
+}

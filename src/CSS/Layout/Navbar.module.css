@@ -1,0 +1,50 @@
+/* Responsive */
+@media screen and (max-width: 991px) {
+    .navbar_container {
+        display: inline !important;
+    }
+}
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////// */
+@keyframes animation {
+    50% {
+        background-color: blanchedalmond;
+        border-radius: 30px;
+        /* padding: 15px;s */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.navbar_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    font-size: 22px;
+
+}
+
+.navbar li {
+    margin: 18px;
+}
+
+.navbar li a {
+    /* color: var(--bs-gray-600); */
+    color: var(--main-color);
+}
+
+.navbar li a:hover {
+    color: var(--main-color);
+    animation-name: animation;
+    animation-duration: 5s;
+}
